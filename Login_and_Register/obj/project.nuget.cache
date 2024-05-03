@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "09AjcsayZz5waRpzqM9xY295JkrQHUxB7A3U7zhBhpP97EaFhqDhaip0aSxp7DcJKUjRc7NYrGr5CdNzU3Z9+Q==",
+  "success": true,
+  "projectFilePath": "/Users/elgunhaqverdiyev/Desktop/WebApplication1/Login_and_Register/Login_and_Register.csproj",
+  "expectedPackageFiles": [
+    "/Users/elgunhaqverdiyev/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/elgunhaqverdiyev/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/elgunhaqverdiyev/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/elgunhaqverdiyev/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,53 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../images/ register.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.top-part
+{
+    display: flex;
+    gap: 100px;
+}
+
+.side-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.input-container input 
+{
+    width: 300px;
+}
+
+.input-container label
+{
+    font-weight: 700;
+}
+
+.button-container button
+{
+    border-radius: 5px;
+    background-color: #4895ef;
+    color: #000000;
+    font-weight: 700;
+}

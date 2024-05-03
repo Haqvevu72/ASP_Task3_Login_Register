@@ -1,0 +1,36 @@
+@model UserLoginViewModel
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/login.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" asp-controller="Authentication" asp-action="LogIn">
+        <div class="login-container">
+            <div class="input-container">
+                <div class="credentials">
+                    <label>Username:</label>
+                    <input type="text" asp-for="username"/>
+                    <span asp-validation-for="username"></span>
+                </div>
+                <div class="credentials">
+                    <label>Password:</label>
+                    <input type="password" asp-for="password"/>
+                    <span asp-validation-for="password"></span>
+                </div>
+                <div class="button-container">
+                    <button type="submit">Log In</button>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="@Url.Content("~/images/ login.jpg")" alt="login"/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
